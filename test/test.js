@@ -9,7 +9,6 @@ var expect = require( 'chai' ).expect
 var through = require( 'through' )
 var browserify = require( 'browserify' )
 var browser = require( 'browser-run' )
-var Ractive = require( 'ractive' )
 
 var ractify = require( '../index' )
 
@@ -21,7 +20,10 @@ describe( 'Ractify', function ( ) {
 		this.timeout( 5000 )
 
 		var b = browserify( )
+
+		// Replace this with your favorite browser
 		var br = browser( { browser: 'chrome' } )
+
 		b.add( path.join( __dirname, 'fixtures/script.js' ) )
 		b.transform( ractify )
 		b.bundle( ).pipe( br ).pipe( through(
