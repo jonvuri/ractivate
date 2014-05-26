@@ -1,0 +1,19 @@
+{
+
+	"env": {
+		"node": true
+	},
+
+	"rules": {
+		"brace-style": 2,
+		"complexity": [2, 8],
+		"func-style": [2, "declaration"],
+		"max-nested-callbacks": [2, 4],
+		"no-console": 2,
+		"semi": [ 2, "never" ],
+		"space-after-keywords": [ 2, "always" ],
+		"space-in-brackets": [ 2, "always" ],
+		"quotes": [ 2, "single" ]
+	}
+
+}
