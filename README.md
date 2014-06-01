@@ -64,10 +64,6 @@ b.bundle( ).pipe( process.stdout )
 
 #### Passing options
 
-```shell
-$ browserify -t [ ractify --extensions "[ '.ract' ]" ] main.js
-```
-
 ```javascript
 var foobarify = require( 'foobarify' )
 
@@ -76,3 +72,5 @@ b.add( 'main.js' )
 b.transform( { extensions: [ 'baz' ] }, foobarify )
 b.bundle( ).pipe( process.stdout )
 ```
+
+Note: Browserify's command line interface is very limited for passing array options. I recommended you use the API if you need to configure Ractify.
