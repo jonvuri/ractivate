@@ -24,7 +24,7 @@ var ractive = new Ractive( {
 
 You can pass two options to configure the behavior of the transform:
 
-```javascript
+```
 {
     extensions: [ Array of strings ],
     excludeExtensions: [ Array of strings ]
