@@ -73,4 +73,4 @@ b.transform( { extensions: [ 'baz' ] }, foobarify )
 b.bundle( ).pipe( process.stdout )
 ```
 
-Note: Browserify's command line interface is very limited for passing array options. I recommended you use the API if you need to configure Ractify.
+Note: Browserify's command line interface is very limited for passing array options. I recommend you use the API if you need to configure Ractify.
