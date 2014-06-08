@@ -1,4 +1,3 @@
-
 /* global document */
 /* eslint no-console: 0 */
 
