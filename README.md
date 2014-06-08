@@ -1,4 +1,4 @@
-# ractify
+# Ractivate
 
 This [Browserify](https://github.com/substack/node-browserify) transform will pre-parse any [Ractive.js](https://github.com/ractivejs/ractive) templates that you `require()` in your script files.
 
@@ -48,29 +48,29 @@ By default, this option is not set.
 #### On the command line 
 
 ```shell
-$ browserify -t ractify main.js
+$ browserify -t ractivate main.js
 ```
 
 #### With the Browserify API
 
 ```javascript
-var ractify = require( 'ractify' )
+var ractivate = require( 'ractivate' )
 
 var b = browserify( )
 b.add( 'main.js' )
-b.transform( ractify )
+b.transform( ractivate )
 b.bundle( ).pipe( process.stdout )
 ```
 
 #### Passing options
 
 ```javascript
-var foobarify = require( 'foobarify' )
+var ractivate = require( 'ractivate' )
 
 var b = browserify( )
 b.add( 'main.js' )
-b.transform( { extensions: [ 'baz' ] }, foobarify )
+b.transform( { extensions: [ '.ract' ] }, ractivate )
 b.bundle( ).pipe( process.stdout )
 ```
 
-Note: Browserify's command line interface is very limited for passing array options. I recommend you use the API if you need to configure Ractify.
+Note: Browserify's command line interface is very limited for passing array options. I recommend you use the API if you need to configure Ractivate.
