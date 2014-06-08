@@ -1,4 +1,3 @@
-
 /* global describe it */
 
 'use strict'
@@ -13,7 +12,7 @@ var browser = require( 'browser-run' )
 var ractify = require( '../index' )
 
 
-describe( 'Ractify', function ( ) {
+describe( 'Ractivate', function ( ) {
 
 	it( 'should compile input files', function ( done ) {
 
