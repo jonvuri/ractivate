@@ -1,11 +1,11 @@
 {
-	"name": "ractify",
+	"name": "ractivate",
 	"version": "0.1.0",
-	"description": "browserify transform for Ractive templates",
+	"description": "browserify 2 transform for Ractive templates",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/jrajav/ractify.git"
+		"url": "git://github.com/jrajav/ractivate.git"
 	},
 	"dependencies": {
 		"compilify": "~0.1.0",
@@ -22,6 +22,15 @@
 	"scripts": {
 		"test": "node_modules/eslint/bin/eslint.js . && node_modules/mocha/bin/mocha test/test.js"
 	},
+	"keywords": [
+		"handlebars",
+		"ractive",
+		"ractivejs",
+		"ractive.js",
+		"template",
+		"browserify",
+		"browserify-transform"
+	],
 	"author": "Jonathan Rajavuori <jrajav@gmail.com>",
 	"license": "MIT",
 	"readmeFilename": "README.md"
