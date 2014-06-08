@@ -1,4 +1,3 @@
-
 'use strict'
 
 var compilify = require( 'compilify' )
