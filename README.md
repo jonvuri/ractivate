@@ -33,7 +33,7 @@ You can pass two options to configure the behavior of the transform:
 
 #### extensions
 
-An array of file extensions that the transform will operate on. If this option is not an array (e.g. `null` or `undefined`), the transform will operate on all of the files it receives. Use this if you want to restrict the set of files prior to this transform.
+An array of file extensions that the transform will be restricted to. If this option is not an array (e.g. `null` or `undefined`), the transform will operate on all of the files it receives.
 
 By default, this option is set to `[ '.html' ]`.
 
