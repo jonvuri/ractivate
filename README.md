@@ -2,6 +2,8 @@
 
 This [Browserify](https://github.com/substack/node-browserify) transform will pre-parse any [Ractive.js](https://github.com/ractivejs/ractive) templates that you `require()` in your script files.
 
+Note that if you use this, you probably won't need `Ractive.parse()` anymore, so you should change `require( 'ractive' )` to be `require( 'ractive/build/ractive.runtime' )` to cut down Ractive's size. You can do this automatically with a transform like [aliasify](https://github.com/benbria/aliasify).
+
 ## Example
 
 ```javascript
