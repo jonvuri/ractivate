@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"compilify": "~0.1.0",
-		"ractive": "~0.4"
+		"ractive": "0.x"
 	},
 	"devDependencies": {
 		"mocha": "~1.19.0",
