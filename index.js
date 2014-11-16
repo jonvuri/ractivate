@@ -1,7 +1,16 @@
 'use strict'
 
 var compilify = require( 'compilify' )
-var Ractive = require( 'ractive' )
+
+try {
+	var Ractive = require( 'ractive' )
+} catch ( e ) {
+	if ( e.code === 'MODULE_NOT_FOUND' ) {
+		throw new Error( 'Module "ractive" required by "ractivate" is not found. Please run: npm install ractive --save' )
+	}
+
+	throw e;
+}
 
 var defaultExtensions = [ '.html' ]
 
