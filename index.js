@@ -3,7 +3,7 @@
 var compilify = require( 'compilify' )
 var Ractive = require( 'ractive' )
 
-var defaultExtensions = [ '.html' ]
+var defaultExtensions = [ '.html', '.ractive', '.ract' ]
 
 function compile( file ) {
 
