@@ -8,8 +8,7 @@
 		"url": "git://github.com/jrajav/ractivate.git"
 	},
 	"dependencies": {
-		"compilify": "~0.1.0",
-		"ractive": "0.x"
+		"compilify": "~0.1.0"
 	},
 	"devDependencies": {
 		"mocha": "~1.19.0",
@@ -17,7 +16,8 @@
 		"browserify": "~4.1.5",
 		"browser-run": "~0.2.2",
 		"eslint": "~0.6.2",
-		"through": "~2.3.4"
+		"through": "~2.3.4",
+		"ractive": "0.x"
 	},
 	"scripts": {
 		"test": "node_modules/eslint/bin/eslint.js . && node_modules/mocha/bin/mocha test/test.js"
